@@ -1,0 +1,10 @@
+version: "3.7"
+services: 
+  debian:
+    stdin_open: true
+    tty: true
+    image: aws_ebcli
+    volumes: 
+      - type: bind
+        source: /Users/jpepe/Documents/Project/DHH/Django
+        target: /root/Document/Project/DHH
